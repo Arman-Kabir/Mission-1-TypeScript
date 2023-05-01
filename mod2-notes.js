@@ -1,5 +1,5 @@
 /*
-    #1-Installation typescript , nvm & ts-node-dev
+    ##1-Installation typescript , nvm & ts-node-dev
     #NVM
         nvm --v
         nvm list
