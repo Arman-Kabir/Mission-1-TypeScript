@@ -1,6 +1,7 @@
 /*
     ##1-Installation typescript , nvm & ts-node-dev
-    #NVM
+    ------------------------------------
+    #NVM (Manages node versions for different projects)
         nvm --v
         nvm list
         nvm install 18.16.0
@@ -10,13 +11,24 @@
     #TypeScript
         npm install -g typescript
         tsc --v
-        tsc is typescript compiler that converts the typescript to javascript
-        to run ts file--** tsc .\index.ts
-        **tsc --init
+        tsc is typescript compiler that converts the typescript code to javascript
+
+        to run ts file--** tsc .\index.ts  (converts to equivalent js file)
+
+        **tsc --init  (to initilize ts configuration file--tsconfig.json)
 
     #to create package.json file
         npm init -y
+    #nodemon(as dev dependency)
+        npm i -D nodemon
 
-    #ts-node-dev (instead of converting ts file to js file,this package runs ts file in node environment )
+    #ts-node-dev ( runs ts file in node environment )
         npm i ts-node-dev --save-dev
+
+
+    #ts files in separate folder(to do this i need to configure tsconfig.json file)
+        search -- rootDir and add "./src"
+
+    #js files in separate folder(to do this i need to configure tsconfig.json file)
+        search -- outDir and add "./dist"
 */
