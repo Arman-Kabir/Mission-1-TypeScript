@@ -67,4 +67,9 @@
         "noImplicitAny": true,  -->
 
         *if function is used between objects, then it's called method
+
+
+    ###6 Spread, Rest, Default Parameters and Destructuring
+    ------------------------------------------------------
+        
 */
