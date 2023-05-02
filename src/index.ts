@@ -1,2 +1,12 @@
-const course: string = 'Next Level  Development';
-console.log(course);
+let coursef;
+
+
+
+// console.log(course);
+
+// Primitive Types
+//string
+//number
+//boolean
+//null
+//undefined

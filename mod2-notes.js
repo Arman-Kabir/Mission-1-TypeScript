@@ -1,5 +1,5 @@
 /*
-    ##1-Installation typescript , nvm & ts-node-dev
+    ##### 1 -Installation typescript , nvm & ts-node-dev
     ------------------------------------
     #NVM (Manages node versions for different projects)
         nvm --v
@@ -31,4 +31,19 @@
 
     #js files in separate folder(to do this i need to configure tsconfig.json file)
         search -- outDir and add "./dist"
+
+
+
+    ###2 Primitive types in typescript
+    -------------------------------------
+
+    // Primitive Types
+        //string
+        //number
+        //boolean
+        //null
+        //undefined
+     we're declaring types in ts, it's called explicit type.
+     
+     ts can infer automatically thats called inference or implicit type.
 */
