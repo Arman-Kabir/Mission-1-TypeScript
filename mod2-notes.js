@@ -44,6 +44,19 @@
         //null
         //undefined
      we're declaring types in ts, it's called explicit type.
-     
+
      ts can infer automatically thats called inference or implicit type.
+
+
+    ###3 Array and Tuples in typescript
+    -------------------------------------
+        we will know reference type in ts - most common reference type is -- array.
+
+        tuple is special type of array.
+
+
+    ###4 Object, Literal Types and Optional types
+    --------------------------------------------
+        optional chaining ?
+        literal type
 */
