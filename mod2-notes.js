@@ -59,4 +59,12 @@
     --------------------------------------------
         optional chaining ?
         literal type
+
+
+
+    ###5 Functions in Typescript
+    -----------------------------------
+        "noImplicitAny": true,  -->
+
+        *if function is used between objects, then it's called method
 */

@@ -11,4 +11,3 @@ const user: {
   isMarried: true,
 };
 
-user.company='Programming Hero Bangladesh'
