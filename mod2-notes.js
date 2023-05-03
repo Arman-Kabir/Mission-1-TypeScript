@@ -64,7 +64,9 @@
 
     ###5 Functions in Typescript
     -----------------------------------
-        "noImplicitAny": true,  -->
+        "noImplicitAny": true,  
+
+        map returns an array which we can modify
 
         *if function is used between objects, then it's called method
 
