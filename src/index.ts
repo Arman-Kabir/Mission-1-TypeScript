@@ -1,12 +1,12 @@
-let coursef;
+// let coursef;
 
 
 
-// console.log(course);
+// // console.log(course);
 
-// Primitive Types
-//string
-//number
-//boolean
-//null
-//undefined
+// // Primitive Types
+// //string
+// //number
+// //boolean
+// //null
+// //undefined
