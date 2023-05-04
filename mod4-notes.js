@@ -3,4 +3,6 @@
     ---------------------------------------------------
     this property doesn't work in arrow function, so we don't use arrow function in class method
 
+    Using the parameter properties,we can reduce repeated type declaration and initialization.
+
 */
