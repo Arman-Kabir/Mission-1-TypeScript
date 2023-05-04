@@ -12,4 +12,9 @@
     And we must use type alias in case of primitive type as primitive type is built-in type in ts.
 
     Object, function is one kind of object, array is special kind of object.
+
+
+    ###3 Introduction of Generic in Type
+        --------------------------------
+        if we can write anything generally , it's generic
 */
