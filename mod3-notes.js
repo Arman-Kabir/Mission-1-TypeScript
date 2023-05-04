@@ -17,4 +17,9 @@
     ###3 Introduction of Generic in Type
         --------------------------------
         if we can write anything generally , it's generic
+
+        
+    ###4 Generic in Interface
+    --------------------------
+
 */
