@@ -37,5 +37,3 @@ const userNameAndRollNumbers:GenericArray<NameRollType>=[{
 }];
 
 
-
-add(3,4);
