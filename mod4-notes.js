@@ -5,4 +5,15 @@
 
     Using the parameter properties,we can reduce repeated type declaration and initialization.
 
+
+###4: Type Guards / Type Narrowing
+-------------------------------------------
+    in ts- when we interrupt type- it's called type guard
+    1.keyof guard-- works at runtime.
+
+    2.in guard - in word is used in object.
+
+    3.instanceof guard -- guards the class and object
+
+
 */
