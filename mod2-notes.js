@@ -58,7 +58,9 @@
     ###4 Object, Literal Types and Optional types
     --------------------------------------------
         optional chaining ?
-        literal type
+        literal type -- if i use specific value , then add that value in type declaration or annotation
+
+        readonly values can't be re-assigned
 
 
 
