@@ -77,5 +77,6 @@
 
     ###6 Spread, Rest, Default Parameters and Destructuring
     ------------------------------------------------------
-        
+        we should not set default parameter at the first value - if we do,then it sdhows error
+        * set default value at the last parameter
 */

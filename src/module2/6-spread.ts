@@ -1,27 +1,26 @@
-// Js uses 2 types of functions -- normal function,arrow function..
-// normal function
+// default parameter
+// function add(num1: number, num2: number = 10): number {
+//   return num1 + num2;
+// }
+// console.log(add(30));
 
-function add(num1: number, num2: number): number {
-  return num1 + num2;
-}
-console.log(add(2, 2));
+// spread operator
+const myFriends = ["chandler", "joey", "ross"];
+const newFriends = ["monica", "rachel", "pheobe"];
 
-const addArrow = (num1: number, num2: number): number => num1 + num2;
+const [bestFriend] = myFriends[1];
 
-const arr = [1, 4, 5];
-const newArray = arr.map((elem: number) => elem * elem);
-console.log(newArray);
+// myFriends.push(...newFriends);
+console.log(myFriends);
+console.log(bestFriend);
 
-const person: {
-  name: string;
-  balance: number;
-  addBalance(money: number): void;
-} = {
-  name: "Mezba",
-  balance: 5,
-  addBalance(money: number) {
-    console.log(`my new Balance is ${this.balance + money}`);
-  },
-};
+// rest parameter
+// const greetFriends = (...friends: string[]): void => friends.forEach((friend)=>console.log(`Hi ${friend}`));
 
-person.addBalance(15);
+// greetFriends("Kashem", "Hashem", "Gashem", "Lashem", "bbai",'e vai');
+
+// array and object destructuring
+
+
+
+
