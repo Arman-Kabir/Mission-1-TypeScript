@@ -72,6 +72,8 @@
 
         *if function is used between objects, then it's called method
 
+        *this doesn't work on arrow function
+
 
     ###6 Spread, Rest, Default Parameters and Destructuring
     ------------------------------------------------------
