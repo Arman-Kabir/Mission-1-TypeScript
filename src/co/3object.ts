@@ -1,15 +1,19 @@
 // readonly -- value can't be re-assigned
 const heroObj:{
-    name:string,
+    heroName:string,
     readonly age:number,
     profession:string,
     isMarried?:boolean
 } = {
-    name:"Khan",
+    heroName:"Khan",
     age:32,
     profession:"Actor",
     isMarried:false
 }
 
 // heroObj.age= 40;
-console.log(heroObj);
+// console.log(heroObj);
+
+// destructure
+const {heroName} = heroObj; 
+console.log(heroName);

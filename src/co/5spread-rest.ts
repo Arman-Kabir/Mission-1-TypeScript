@@ -2,6 +2,7 @@
 const heroArr1: string[] = ["Khan", "jalil", "siam"];
 const heroArr2: string[] = ["alom", "faru", "raz"];
 
+// destructure
 const [hero1, hero2, hero3] = heroArr1;
 console.log(hero1, hero2, hero3);
 
