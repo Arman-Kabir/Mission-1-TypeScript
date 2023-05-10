@@ -2,7 +2,10 @@
 const heroArr1: string[] = ["Khan", "jalil", "siam"];
 const heroArr2: string[] = ["alom", "faru", "raz"];
 
-heroArr1.push(...heroArr2);
+const [hero1, hero2, hero3] = heroArr1;
+console.log(hero1, hero2, hero3);
+
+// heroArr1.push(...heroArr2);
 // console.log(heroArr1);
 
 //rest
@@ -18,6 +21,6 @@ const heroScore = (...score: number[]): number => {
 
 // rest using string
 const heroString = (...strings: string[]): void => {
-  strings.map((str) => console.log(str)); 
+  strings.map((str) => console.log(str));
 };
-console.log(heroString("programming", "hero", "apollo", "web"));
+// console.log(heroString("programming", "hero", "apollo", "web"));
