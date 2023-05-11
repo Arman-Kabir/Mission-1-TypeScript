@@ -40,3 +40,14 @@ const me: IMe<string, number> = {
   age: "23 years",
   mark: 34,
 };
+
+//keyof
+type MovieType = {
+    name:string,
+    duration:number,
+    category:string,
+}
+
+type test = 'name'
+
+type myMoviesType = keyof MovieType // 'name' | 'duration' | 'category'
