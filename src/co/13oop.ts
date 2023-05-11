@@ -10,20 +10,39 @@ class Person {
 }
 
 const p1 = new Person("jalil", 39);
-console.log(p1);
+// console.log(p1);
 
 //inheritance
-class person1{
-    name:string,
-    age:number,
+class Person1 {
+  name: string;
+  age: number;
 
-    constructor(name:string,age:number){
-        this.name = name;
-        this.age =age;
-    }
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
 
-    show(){
-        console.log(`Name:${this.name} and Age:${this.age}`);
-    }
-
+  show() {
+    console.log(`Name:${this.name} and Age:${this.age}`);
+  }
 }
+
+class Person2 extends Person1 {
+  
+  salary: number;
+  position: string;
+
+  constructor(name: string, age: number, salary: number, position: string) {
+    super(name,age);
+    this.salary = salary;
+    this.position = position;
+  }
+
+  show() {
+    console.log(`Name:${this.name} and Age:${this.age} and salary ${this.salary}`);
+  }
+}
+
+// const p2 = new Person1("Fahim", 26);
+const p3 = new Person2("Fahim", 26,30000,'developer');
+console.log(p3.show());
