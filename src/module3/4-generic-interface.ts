@@ -1,41 +1,66 @@
+//Generic Interface
 
+interface CrushInterface<T,U> {
+  name: string;
+  husband: T;
+  wife?:U
+}
 
-// type GenericTuple<X,Y> = [X,Y]
+const crush1: CrushInterface<boolean,undefined> = { name: "Kate Winslet", husband: true };
 
-// const relation:GenericTuple<string,string> = ['Persian','Kate Winslet']; 
+const crush2: CrushInterface<string,null> = {
+  name: "Kate Winslet",
+  husband: "Persian",
+};
 
-// type relationWithSalaryType = {
-//     name:string,salary:number
-// }
+interface HusbandInterface{
+    name:string;
+    salary:number;
+}
 
+const crush3: CrushInterface<> = {
+  name: "Kate Winslet",
+  husband: {
+    name: "Persian",
+    salary: 0.01,
+  },
+};
 
-// const relationWithSalary:GenericTuple<relationWithSalaryType,string>=[{
-//     name:"Persian",
-//     salary:10000
-// },
-//     "Kate Winslet",
-// ];
+type GenericTuple<X, Y> = [X, Y];
 
+const relation: GenericTuple<string, string> = ["persian", "kate winslet"];
 
+// type RelationWithSalaryType = { name: string; salary: number };
 
+// interface
+interface RelationWithSalaryInterface {
+  name: string;
+  salary: number;
+}
 
-// type GenericArray<T> = Array<T>
+const relationWithSalary: GenericTuple<RelationWithSalaryInterface, string> = [
+  {
+    name: "Persian",
+    salary: 10000,
+  },
+  "ket wins",
+];
 
-// const rollNumbers: GenericArray<number> = [44, 12, 4];
-// const rollNumbers2: GenericArray<string>= ["44", "12", "4"];
+type GenericArray<T> = Array<T>;
 
-// const rollNumbers3:GenericArray<boolean> =[true,false];
+const rollNumbers: GenericArray<number> = [44, 12, 4];
+const rollNumbers2: GenericArray<string> = ["44", "12", "4"];
+const rollNumbers3: GenericArray<boolean> = [true, false];
 
+type NameRollType = { name: string; roll: number };
 
-// type NameRollType={
-//     name:string,roll:number
-// }
-// const userNameAndRollNumbers:GenericArray<NameRollType>=[{
-//     name:'Mr. X',
-//     roll:1
-// },{
-//     name:'Mr. Y',
-//     roll:2
-// }];
-
-
+const userNameAndRollNumbers: GenericArray<NameRollType> = [
+  {
+    name: "Mr. X",
+    roll: 1,
+  },
+  {
+    name: "Mr. Y",
+    roll: 2,
+  },
+];
