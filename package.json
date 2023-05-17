@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only ./src/lws/13generics.ts",
+    "start": "ts-node-dev --respawn --transpile-only ./src/lws/ben-Gen.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
