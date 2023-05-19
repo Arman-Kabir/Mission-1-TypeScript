@@ -9,3 +9,6 @@ if (isHeroAvailable) {
 const checkAvialability = isHeroAvailable ? "book now" : " can't book";
 
 console.log(checkAvialability);
+
+//nullish operator
+//check null and undefined
