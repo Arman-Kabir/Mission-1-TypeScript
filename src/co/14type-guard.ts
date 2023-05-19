@@ -23,9 +23,10 @@ type Y = {
 };
 
 const getInfo = (info: X | Y) => {
+  // info. 
   if ("phone" in info) {
     return `Type A:phone: ${info.phone}`;
-  } else if ("salary in info") {
+  } else if ("salary" in info) {
     return `Type B: salary: ${info.salary}`;
   }
 };
