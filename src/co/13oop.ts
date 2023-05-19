@@ -36,13 +36,15 @@ class Person2 extends Person1 {
     super(name,age);
     this.salary = salary;
     this.position = position;
+
   }
 
-  show() {
-    console.log(`Name:${this.name} and Age:${this.age} and salary ${this.salary}`);
+  showInfo() {
+    console.log(`Name:${this.name} and Age:${this.age} and salary ${this.salary} and position:${this.position}`);
   }
 }
 
 // const p2 = new Person1("Fahim", 26);
+// console.log(p2);
 const p3 = new Person2("Fahim", 26,30000,'developer');
-// console.log(p3.show());
+console.log(p3.showInfo());
