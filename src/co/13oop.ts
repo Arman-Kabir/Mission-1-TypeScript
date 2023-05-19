@@ -45,4 +45,4 @@ class Person2 extends Person1 {
 
 // const p2 = new Person1("Fahim", 26);
 const p3 = new Person2("Fahim", 26,30000,'developer');
-console.log(p3.show());
+// console.log(p3.show());
