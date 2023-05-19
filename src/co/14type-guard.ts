@@ -7,8 +7,8 @@ const doSomething = (a: typeOfData): typeOfData => {
   return a;
 };
 
-console.log(doSomething(23));
-console.log(doSomething("hello"));
+// console.log(doSomething(23));
+// console.log(doSomething("hello"));
 
 //in guard
 type X = {
@@ -66,7 +66,7 @@ class R extends Q {
 
 function findInstance(person:P){
     if(person instanceof Q){
-        person.showDetails();
+        person.showSalary();
     }else if(person instanceof R){
         person.showSalarywithPosition();
     }
@@ -74,5 +74,8 @@ function findInstance(person:P){
 
 
 const p4 = new Q('developer',23);
+console.log(p4);
 const p5 = new R('developer',33);
+console.log(p5);
+
 
